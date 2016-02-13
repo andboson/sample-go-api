@@ -1,0 +1,69 @@
+hash: ce2f14e08d9b644451ed436191b6798ae5df6a0083649c462d422200157d8f7f
+updated: 2016-02-13T23:18:57.045594861+02:00
+imports:
+- name: github.com/andboson/carbon
+  version: 11f8f3f7c9fd87f9c2423b473aff3fbeea48e3a9
+- name: github.com/andboson/configlog
+  version: e4749027d44253bbe4b5bfa3351d6dfddb7b5794
+- name: github.com/andboson/debugcharts
+  version: 02e972bc35103bdf99f150dc4f14d0bce5746829
+- name: github.com/asaskevich/govalidator
+  version: 9699ab6b38bee2e02cd3fe8b99ecf67665395c96
+- name: github.com/davecheney/profile
+  version: a38fda42f65efbbb244c33d4551654053da4df34
+- name: github.com/fvbock/endless
+  version: dd6ed5d07b55d55cf8342731bbbb96bd20283b7d
+- name: github.com/gorilla/websocket
+  version: 234959944d9cf05229b02e8b386e5cffe1e4e04a
+- name: github.com/howeyc/fsnotify
+  version: f0c08ee9c60704c1879025f2ae0ff3e000082c13
+- name: github.com/jinzhu/gorm
+  version: c7b9acefb7d4570e0f46d94ce453467cc486d8fd
+- name: github.com/jinzhu/inflection
+  version: 3272df6c21d04180007eb3349844c89a3856bc25
+- name: github.com/jtolds/gls
+  version: 8ddce2a84170772b95dd5d576c48d517b22cac63
+- name: github.com/julienschmidt/httprouter
+  version: abb0dc9f755ff0a9d818db28d9d8b9810066e2b5
+- name: github.com/kardianos/osext
+  version: 29ae4ffbc9a6fe9fb2bc5029050ce6996ea1d3bc
+- name: github.com/lib/pq
+  version: f59175c2986495ff94109dee3835c504a96c3e81
+  subpackages:
+  - oid
+  - hstore
+- name: github.com/mkevac/debugcharts
+  version: 4e0f0921a868b01d83ba3b630a70b00522a5d2dd
+  subpackages:
+  - bindata
+- name: github.com/olebedev/config
+  version: e3edea7d68b76222b5118cc2e1cf3825e30abb80
+- name: github.com/Sirupsen/logrus
+  version: be52937128b38f1d99787bb476c789e2af1147f1
+- name: github.com/smartystreets/assertions
+  version: 443d812296a84445c202c085f19e18fc238f8250
+  subpackages:
+  - internal/go-render/render
+  - internal/oglematchers
+- name: github.com/smartystreets/goconvey
+  version: 995f5b2e021c69b8b028ba6d0b05c1dd500783db
+  subpackages:
+  - convey
+  - web/server/api
+  - web/server/contract
+  - web/server/executor
+  - web/server/messaging
+  - web/server/parser
+  - web/server/system
+  - web/server/watch
+  - convey/reporting
+  - convey/gotest
+- name: gopkg.in/bufio.v1
+  version: 567b2bfa514e796916c4747494d6ff5132a1dfce
+- name: gopkg.in/guregu/null.v2
+  version: 4ac4f00378f403715e68ae8827a8b1d8e9addf4a
+- name: gopkg.in/redis.v2
+  version: e6179049628164864e6e84e973cfb56335748dea
+- name: gopkg.in/yaml.v2
+  version: f7716cbe52baa25d2e9b0d0da546fcf909fc16b4
+devImports: []

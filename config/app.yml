@@ -1,0 +1,24 @@
+api_name: 'app'
+port: 8001
+pidfile: '/tmp/api-app-go.pid'
+debug: true
+debug_database: false
+logf444ile: 'log/logfile.log'
+enable_gzip: false
+database:
+    host: '127.0.0.1'
+    pg_base: test
+    pg_user: root
+    pg_pass: root
+    pg_host: '127.0.0.1'
+    db_port: 5432
+    sslmode: disable
+
+redis:
+    redis_host: '127.0.0.1'
+    redis_port: 6379
+    redis_pass: ''
+
+category:
+    category_prefix_to_remove: mediamarktcataloginternet_
+
