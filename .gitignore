@@ -28,6 +28,4 @@ conf/prod/*
 vendor
 
 main
-stage-api-resizer-go
-api-resizer-go
-api-seo
+log/*.log
