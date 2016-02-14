@@ -13,16 +13,12 @@ import (
 
 //request headers
 type HttpLib struct {
-	XBunnyRequestId string `json:"x_bunny_request_id"`
-	XBunnySessionId string `json:"x_bunny_session_id"`
 	XCallingService string `json:"x_calling_service"`
 	XCallingMethod  string `json:"x_calling_method"`
 }
 
 func (h *HttpLib) GetRequestHeaders(request *http.Request) *HttpLib {
 	response := &HttpLib{
-		XBunnyRequestId: request.Header.Get("X-Bunny-Request-ID"),
-		XBunnySessionId: request.Header.Get("X-Bunny-Session-ID"),
 		XCallingService: request.Header.Get("X-Calling-Service"),
 		XCallingMethod:  request.Header.Get("X-Calling-Method"),
 	}

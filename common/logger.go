@@ -14,8 +14,6 @@ func init() {
 //init logger with headers
 func InitLogger(headers *HttpLib) {
 	logger := log.WithFields(log.Fields{
-		"x_bunny_request_id": headers.XBunnyRequestId,
-		"x_bunny_session_id": headers.XBunnySessionId,
 		"x_calling_service":  headers.XCallingService,
 		"x_calling_method":   headers.XCallingMethod,
 	})
