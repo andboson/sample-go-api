@@ -3,7 +3,7 @@ port: 8001
 pidfile: '/tmp/api-app-go.pid'
 debug: true
 debug_database: false
-logf444ile: 'log/logfile.log'
+logfile: 'log/logfile.log'
 enable_gzip: false
 database:
     host: '127.0.0.1'
