@@ -16,9 +16,9 @@
 
 ####glide
 
-Glide is package golang manager. It is very similar to Composer (PHP package manager). 
+Glide is golang package manager. It is very similar to Composer (PHP package manager). 
 
-See [github glide](https://github.com/Masterminds/glide)
+You must have Glide. See [github glide](https://github.com/Masterminds/glide) for howto
 
 #### package manager
 https://github.com/Masterminds/glide
