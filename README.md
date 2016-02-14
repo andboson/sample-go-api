@@ -3,7 +3,7 @@
 ```
     cd $GOPATH
     
-    mkdir -p src/app cd src/app
+    mkdir -p src/app && cd src/app
     
     git clone git@github.com:andboson/sample-go-api.git .
     
