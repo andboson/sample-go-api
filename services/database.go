@@ -23,10 +23,16 @@ func InitDb() {
 	sslcert, _ := config.String("database.sslcert")
 	sslkey, _ := config.String("database.sslkey")
 	sslrootcert, _ := config.String("database.sslrootcert")
+	maxIdleConns := config.UInt("database.max_idle_connections",50)
+	maxConns := config.UInt("database.max_open_connections", 350)
+
 	db, err := gorm.Open("postgres", fmt.Sprintf(
 		"host=%s port=%s user=%s password=%s dbname=%s sslmode=%s sslcert=%s sslkey=%s sslrootcert=%s",
 		host, port, user, password, database, sslmode, sslcert, sslkey, sslrootcert))
 	db.DB()
+	db.DB().SetMaxIdleConns(maxIdleConns)
+	db.DB().SetMaxOpenConns(maxConns)
+
 	err = db.DB().Ping()
 	if err != nil {
 		Log.WithField("errod", err).Fatalf("\n Cannot connect to database")

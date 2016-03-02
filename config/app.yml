@@ -13,6 +13,8 @@ database:
     pg_host: '127.0.0.1'
     db_port: 5432
     sslmode: disable
+    max_idle_connections: 100
+    max_open_connections: 400
 
 redis:
     redis_host: '127.0.0.1'
