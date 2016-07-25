@@ -15,7 +15,7 @@ type Model struct {
 }
 
 func (m *Model) GetByName(name string) *Model {
-	error := services.DB.Where("name = ?", name).First(m).Error
+	error := services.DB.Find(m, "name = ?", name).Error
 	if error != nil {
 		Log.Printf("Unable to get model!  %s", error, name)
 	}
