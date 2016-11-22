@@ -26,3 +26,35 @@ You must have Glide. See [github glide](https://github.com/Masterminds/glide) fo
 - [github.com/smartystreets/goconvey](github.com/smartystreets/goconvey) - useful library for testing
 - [github.com/jinzhu/gorm](github.com/jinzhu/gorm) - beautiful orm-library
 - [github.com/andboson/configlog](github.com/andboson/configlog) - library for config and use logfile
+
+### Sample docs:
+
+### model.find_by_name
+
+Return model api-response
+
+Params:
+
+    - `name`  Name of model.
+
+####sample request:
+
+**request:**
+
+```javascript
+{
+	"name": "test-name"
+}
+```
+
+**Ответ:**
+
+```javascript
+{
+    "id": 3,
+    "article": 1007455,
+    "name": "test-name",   			
+    "date": "2016-05-22"
+}
+
+```
