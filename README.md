@@ -47,7 +47,7 @@ Params:
 }
 ```
 
-**Ответ:**
+**response:**
 
 ```javascript
 {
